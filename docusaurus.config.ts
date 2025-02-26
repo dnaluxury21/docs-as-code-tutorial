@@ -5,8 +5,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Docs as code',
+  tagline: 'Documentation as code',
+  navbar: {
+    title: 'Docs as code',
+  },
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
